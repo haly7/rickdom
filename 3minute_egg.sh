@@ -30,4 +30,4 @@ rm -r /usr/bin/ksh2020
 rm -r /usr/bin/rksh2020
 
 
-mv /bin/fivh/bin/fish
+mv /bin/fivh /bin/fish
