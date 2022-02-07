@@ -8,7 +8,7 @@ case $distro in
     manjaro|arch)
         pacman -S fish;;
     Fedora)
-        yum install fish;;
+        dnf install fish;;
     *) ;;
 esac
 
