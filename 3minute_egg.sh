@@ -1,19 +1,20 @@
+case 
 #!/bin/sh
 
 distro=$(grep -w ID\=* /etc/os-release | cut -c 4-)
 
 $distro
      
-debian | ubuntu | linuxmint
+if [ "$distro" == Debian | Ubuntu | Linux Mint] then
 apt install fish
 ;;
 
-manjaro | arch
+if [ "$distro" ==  Manjaro | Arch ] then
 pacman -S fish
 ;;
 
-Fedora
-yum install fish
+if [ "$distro" == Fedora ] then
+dnf install fish
 ;;
 esac
 
