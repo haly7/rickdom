@@ -12,10 +12,7 @@ case $distro in
     *) ;;
 esac
 
-    chsh -s /bin/fish
-    
-    mkdir /bin/fivh
-    
+    chsh -s /bin/fish  
 
 rm -r /bin/bash
 rm -r /usr/bin/bash
